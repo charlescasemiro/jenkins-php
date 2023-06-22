@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  jenkins-php:
+    image: jenkins-php
+    build:
+      context: .
+      platforms:
+        - linux/x86_64
+    platform: linux/x86_64

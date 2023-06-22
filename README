@@ -1,4 +1,4 @@
-#JENKINS-PHP
+# JENKINS-PHP
 
 This dockerfile have agent base Jenkins and PHP.
 The image is a RHEL 8 with EPEL 8 latest version. The also it have PHP and PHP-FPM, so feel free to customize adding more package or less packages.
